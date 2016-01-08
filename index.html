@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <link rel="stylesheet" type="text/css" href="./stylesheet/style.css"></link>
+  <script type="text/javascript" src="./js/fun.js"></script>
+</head>
+<!-- <body onload="showTime()"> -->
+<body>
+   <script type="text/javascript" src="bundle.js" charset="utf-8"></script>
+  </br>
+  現在時間:<div id="showbox"></div>
+  <ul id="addul">
+    <li id="id1">1</li>
+    <li id="id2">2</li>
+  </ul>
+ <button onclick="add()">click</button>
+ <button onclick="remove1()">remove</button>
+  <ol id="ul2">
+    <li>呵呵</li>
+    <li>哈哈</li>
+  </ol></br>
+  <div>
+    <table class="area">
+    <thead>
+     <tr>
+      <th>1</th>
+      <th>2</th>
+     <tr>
+       <tr>
+         <td>a</td>
+         <td>b</td>
+       </tr>
+       <tr>
+         <td colspan="2">aa</td>
+       </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  </div>
+  <form action="send.php" method="post">
+    姓名:<input type="text" name="userName"></br>
+    密碼:<input type="password" name="pw"></br>
+    性別:
+    <select>
+      <option value="1">男</option>
+      <option value="2">女</option>
+    </select></br>
+    內容:<textarea name="content"></textarea></br>
+  <div class="area">
+    <input type="radio" value="Taipei" name="location">台北</br>
+    <input type="radio" value="Taoyuan" name="location">桃園</br>
+  </div>
+  <input type="submit" value="送出表單">
+  </form>
+</body>
+</html>

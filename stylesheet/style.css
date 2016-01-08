@@ -1,0 +1,14 @@
+body{
+  background-color: #D9EDF7;
+}
+
+.area{
+  background-color:#DDDDDD;
+}
+
+table{
+  width:450px;
+  text-align: center;
+  border: 3px #FFAC55 solid;
+  padding: 5px;
+}
